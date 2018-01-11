@@ -6,7 +6,7 @@
       "name": "backup-server",
       "template": "apache",
       "peer_group": "HTTP-GROUP",
-      "size": "Small"
+      "size": "SMALL"
     }
   ],
   "peerGroups": [
