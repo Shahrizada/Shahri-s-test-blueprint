@@ -1,12 +1,12 @@
 {
-  "name": "SubutaiBlueprint",
-  "description": "Environment configuration test blueprint",
+  "name": "ShariBlueprint",
+  "description": "Shahri's apache test blueprint",
   "nodes": [
     {
       "name": "backup-server",
-      "template": "ubuntu16",
+      "template": "apache",
       "peer_group": "HTTP-GROUP",
-      "size": "MEDIUM"
+      "size": "small"
     }
   ],
   "peerGroups": [
