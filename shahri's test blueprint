@@ -1,0 +1,19 @@
+{
+  "name": "ShariBlueprint",
+  "description": "Shahri's apache test blueprint",
+  "nodes": [
+    {
+      "name": "backup-server",
+      "template": "apache",
+      "peer_group": "HTTP-GROUP",
+      "size": "small"
+    }
+  ],
+  "peerGroups": [
+    {
+      "name": "HTTP-GROUP",
+      "pricingPref": {
+        "maxPrice": "500"
+      }
+    }
+  ]}
